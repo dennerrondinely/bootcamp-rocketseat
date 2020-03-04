@@ -25,13 +25,7 @@ export default function Routes() {
             title: 'Usuários',
           }}
         />
-        <Stack.Screen
-          name="User"
-          component={User}
-          options={{
-            title: 'My home',
-          }}
-        />
+        <Stack.Screen name="User" component={User} />
       </Stack.Navigator>
     </NavigationContainer>
   );

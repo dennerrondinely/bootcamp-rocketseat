@@ -76,6 +76,16 @@ export const ProfileButton = styled(RectButton)`
   align-items: center;
   height: 35px;
 `;
+export const DeleteButton = styled(RectButton)`
+  margin-top: 10px;
+  align-self: stretch;
+  border-radius: 4px;
+  background: #ff5a60;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+  flex-direction: row;
+`;
 export const ProfileButtonText = styled.Text`
   font-size: 14px;
   font-weight: bold;
